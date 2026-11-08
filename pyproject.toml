@@ -1,7 +1,7 @@
 [project]
 name = "vehicle-recommendation"
 version = "0.1.0"
-description = "Add your description here"
+description = "LLM-powered vehicle maintenance analysis from work-order history"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
