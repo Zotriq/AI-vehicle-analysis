@@ -3,7 +3,9 @@
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B-F55036?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq-gpt--oss--120b-F55036?style=flat-square)
+
+**[Live demo →](https://zotriq-demos.streamlit.app/vehicle-analysis)**
 
 An API that turns raw vehicle work-order history into a clear maintenance report. Ask in plain English,
 for example *"Can you share a deep analysis for car id 34?"*, and it returns a summary of past repairs,
@@ -20,8 +22,8 @@ User question
                            └─► JSON response
 ```
 
-1. **Query understanding:** Llama 3.3 70B (via Groq) in JSON mode pulls the vehicle ID and name out of free text.
-2. **Data retrieval:** the vehicle's most recent work orders are fetched from an external API (bearer-token auth).
+1. **Query understanding:** an LLM on Groq (`GROQ_MODEL`, default `openai/gpt-oss-120b`) in JSON mode pulls the vehicle ID and name out of free text.
+2. **Data retrieval:** the vehicle's most recent work orders are fetched from the fleet API (bearer-token auth). Without an API configured, the bundled sample fleet in `sample_data/workorders.json` (vehicles 34, 55 and 72, same raw format) is used.
 3. **Normalization:** alternating work-order headers and line items are parsed into structured records.
 4. **Analysis:** a second prompt reviews the history, spots repair trends and recurring faults, and gives recommendations.
 
@@ -43,7 +45,8 @@ Create a `.env` file:
 
 ```env
 GROQ_API_KEY=your_groq_key
-url=https://your-fleet-api/workorders
+GROQ_MODEL=openai/gpt-oss-120b      # optional
+url=https://your-fleet-api/workorders   # optional: leave out to use the sample fleet
 DATA_API_KEY=your_data_api_key
 ```
 
@@ -55,6 +58,8 @@ uvicorn main:app --reload
 
 `app.ipynb` contains the same pipeline step by step, for experimenting.
 
+Tests (no API keys needed): `pip install pytest && pytest`
+
 ## Tech stack
 
-FastAPI · Pydantic · LangChain · Groq (Llama 3.3 70B) · Requests · python-dotenv
+FastAPI · Pydantic · LangChain · Groq · Requests · python-dotenv · pytest

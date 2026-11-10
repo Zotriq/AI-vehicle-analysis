@@ -1,0 +1,443 @@
+{
+ "34": {
+  "vehicle_name": "Toyota Hilux 2.8 (2021)",
+  "workorders": [
+   [
+    {
+     "workorder_no": "WO-34-118",
+     "repair_date": "2026-10-02",
+     "odometer": 98450,
+     "diff_km": 8120,
+     "total_amount": 20900
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 1500,
+      "parts": 6200,
+      "subtotal": 7700
+     }
+    ],
+    [
+     {
+      "service_task": "Front brake pads replaced",
+      "labor": 2500,
+      "parts": 9800,
+      "subtotal": 12300
+     }
+    ],
+    [
+     {
+      "service_task": "Brake fluid top-up",
+      "labor": 300,
+      "parts": 600,
+      "subtotal": 900
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-34-104",
+     "repair_date": "2026-07-21",
+     "odometer": 90330,
+     "diff_km": 9870,
+     "total_amount": 39400
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 1500,
+      "parts": 6100,
+      "subtotal": 7600
+     }
+    ],
+    [
+     {
+      "service_task": "Air filter replaced",
+      "labor": 400,
+      "parts": 2900,
+      "subtotal": 3300
+     }
+    ],
+    [
+     {
+      "service_task": "Rear shock absorbers replaced",
+      "labor": 4000,
+      "parts": 24500,
+      "subtotal": 28500
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-34-091",
+     "repair_date": "2026-04-28",
+     "odometer": 80460,
+     "diff_km": 7900,
+     "total_amount": 15800
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Front brake pads replaced",
+      "labor": 2500,
+      "parts": 9500,
+      "subtotal": 12000
+     }
+    ],
+    [
+     {
+      "service_task": "Brake disc skimming",
+      "labor": 2000,
+      "parts": 0,
+      "subtotal": 2000
+     }
+    ],
+    [
+     {
+      "service_task": "Wheel alignment",
+      "labor": 1800,
+      "parts": 0,
+      "subtotal": 1800
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-34-077",
+     "repair_date": "2026-02-10",
+     "odometer": 72560,
+     "diff_km": 10200,
+     "total_amount": 16500
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 1500,
+      "parts": 5900,
+      "subtotal": 7400
+     }
+    ],
+    [
+     {
+      "service_task": "Coolant leak: radiator hose replaced",
+      "labor": 2200,
+      "parts": 3400,
+      "subtotal": 5600
+     }
+    ],
+    [
+     {
+      "service_task": "Coolant flush",
+      "labor": 900,
+      "parts": 2600,
+      "subtotal": 3500
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-34-060",
+     "repair_date": "2025-11-03",
+     "odometer": 62360,
+     "diff_km": 9600,
+     "total_amount": 19000
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 1500,
+      "parts": 5800,
+      "subtotal": 7300
+     }
+    ],
+    [
+     {
+      "service_task": "Front brake pads replaced",
+      "labor": 2500,
+      "parts": 9200,
+      "subtotal": 11700
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-34-042",
+     "repair_date": "2025-07-15",
+     "odometer": 52760,
+     "diff_km": 10500,
+     "total_amount": 30500
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 1500,
+      "parts": 5600,
+      "subtotal": 7100
+     }
+    ],
+    [
+     {
+      "service_task": "Fuel filter replaced",
+      "labor": 800,
+      "parts": 3800,
+      "subtotal": 4600
+     }
+    ],
+    [
+     {
+      "service_task": "Battery replaced",
+      "labor": 300,
+      "parts": 18500,
+      "subtotal": 18800
+     }
+    ]
+   ]
+  ]
+ },
+ "55": {
+  "vehicle_name": "Isuzu NPR delivery truck (2019)",
+  "workorders": [
+   [
+    {
+     "workorder_no": "WO-55-233",
+     "repair_date": "2026-09-18",
+     "odometer": 214900,
+     "diff_km": 6100,
+     "total_amount": 31600
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Coolant leak: water pump replaced",
+      "labor": 6500,
+      "parts": 21000,
+      "subtotal": 27500
+     }
+    ],
+    [
+     {
+      "service_task": "Coolant flush",
+      "labor": 900,
+      "parts": 3200,
+      "subtotal": 4100
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-55-219",
+     "repair_date": "2026-07-30",
+     "odometer": 208800,
+     "diff_km": 7400,
+     "total_amount": 14600
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 2000,
+      "parts": 9800,
+      "subtotal": 11800
+     }
+    ],
+    [
+     {
+      "service_task": "Coolant leak: radiator cap and hose clamps",
+      "labor": 1200,
+      "parts": 1600,
+      "subtotal": 2800
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-55-201",
+     "repair_date": "2026-06-02",
+     "odometer": 201400,
+     "diff_km": 8800,
+     "total_amount": 81500
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Clutch kit replaced",
+      "labor": 12000,
+      "parts": 58000,
+      "subtotal": 70000
+     }
+    ],
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 2000,
+      "parts": 9500,
+      "subtotal": 11500
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-55-188",
+     "repair_date": "2026-03-25",
+     "odometer": 192600,
+     "diff_km": 9100,
+     "total_amount": 99400
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Coolant top-up, leak not found",
+      "labor": 600,
+      "parts": 800,
+      "subtotal": 1400
+     }
+    ],
+    [
+     {
+      "service_task": "Rear tyres replaced (x4)",
+      "labor": 2000,
+      "parts": 96000,
+      "subtotal": 98000
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-55-170",
+     "repair_date": "2026-01-12",
+     "odometer": 183500,
+     "diff_km": 9900,
+     "total_amount": 12700
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 2000,
+      "parts": 9200,
+      "subtotal": 11200
+     }
+    ],
+    [
+     {
+      "service_task": "Air brake adjustment",
+      "labor": 1500,
+      "parts": 0,
+      "subtotal": 1500
+     }
+    ]
+   ]
+  ]
+ },
+ "72": {
+  "vehicle_name": "Honda Civic 1.5T (2023)",
+  "workorders": [
+   [
+    {
+     "workorder_no": "WO-72-031",
+     "repair_date": "2026-09-05",
+     "odometer": 41200,
+     "diff_km": 10100,
+     "total_amount": 12100
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 1500,
+      "parts": 7400,
+      "subtotal": 8900
+     }
+    ],
+    [
+     {
+      "service_task": "Cabin air filter replaced",
+      "labor": 300,
+      "parts": 2100,
+      "subtotal": 2400
+     }
+    ],
+    [
+     {
+      "service_task": "Tyre rotation",
+      "labor": 800,
+      "parts": 0,
+      "subtotal": 800
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-72-022",
+     "repair_date": "2026-03-19",
+     "odometer": 31100,
+     "diff_km": 10600,
+     "total_amount": 11100
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 1500,
+      "parts": 7200,
+      "subtotal": 8700
+     }
+    ],
+    [
+     {
+      "service_task": "Wiper blades replaced",
+      "labor": 0,
+      "parts": 2400,
+      "subtotal": 2400
+     }
+    ]
+   ],
+   [
+    {
+     "workorder_no": "WO-72-014",
+     "repair_date": "2025-09-30",
+     "odometer": 20500,
+     "diff_km": 10300,
+     "total_amount": 9200
+    }
+   ],
+   [
+    [
+     {
+      "service_task": "Engine oil & filter change",
+      "labor": 1500,
+      "parts": 6900,
+      "subtotal": 8400
+     }
+    ],
+    [
+     {
+      "service_task": "Tyre rotation",
+      "labor": 800,
+      "parts": 0,
+      "subtotal": 800
+     }
+    ]
+   ]
+  ]
+ }
+}
